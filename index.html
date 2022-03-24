@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Funções JS</title>
+  </head>
+
+
+  <body class="janela">
+
+    <!-- TAGS PARA TESTES -->
+
+    <h1 id="titulo"''>Estudo de funções Javascript</h1>
+
+    <h3 id="textoH3">Texto contido em uma tag h3</h3>
+
+    <h3 id="data"></h3>
+
+    <p id='textoP' class="">Este texto terá o estilo modificado quando for acionado o botão correspondente.</p>
+
+    <!--BOTÕES 
+    para cada botão é chamada uma função específica do arquivo script.js-->
+
+    <ol>
+      
+      <li><button onclick="alteraTitulo()">Alterar texto do Título</button></li>
+
+      <li><button onclick="alteraH3()">Modificar subtitulo com QuerySelector</button></li>
+
+      <li><button onclick="alteraTextoP()">Alterar estilo do texto</button></li>
+
+      <li><button onclick="restauraTextoP()">Limpar estilo do texto</button></li>
+
+      <li><button onclick="apagaTextoP()">Apagar texto</button></li>
+
+      <li><button onclick='mostrarTextoP()'>Mostrar texto</button></li>
+
+      <li><button onclick="alerta()">Exibir um alerta</button></li>
+
+      <li><button onclick="verData()">Exibir data e hora</button></li>
+
+      <li id="textoMouse" onmouseout="tirarMouse()" onmouseenter ="passarMouse()">Passe o mouse aqui!</li>
+
+      <li><button class="fecharJanela" onclick="fecharJanela()"> !!! FECHAR JANELA DO NAVEGADOR !!! </button></li>
+
+    </ol>
+    
+    <!--Arquivo Js-->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.janela {
+  padding: 2rem;
+}
+
+.textoCor {
+  color: rgb(247, 4, 57);
+}
+
+li {
+  padding: 1rem 0 0 0;
+}
+
+.fecharJanela {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+.passarMouse {
+  font-weight: bold;
+}
